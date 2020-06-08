@@ -1,0 +1,65 @@
+.display-flex {
+   display: flex;
+}
+
+.form {
+   --form-font: "Quicksand", Helvetica, sans-serif;
+   --primary-form-color: #9b9b9b;
+   --secundary-form-color: #ababab;
+   margin: 0 auto;
+   flex-direction: column;
+   width: 50%;
+   border: 3px solid var(--primary-form-color);
+   border-radius: 20px;
+   padding: 2em;
+   padding-top: 1em;
+}
+
+.label-item {
+   flex-basis: 7em;
+}
+
+#send {
+   width: 25%;
+   padding: 0.5em;
+   border: 2px solid var(--secundary-form-color);
+   font-family: var(--form-font);
+   font-size: 0.7em;
+   border-radius: 15px;
+   margin-top: 2em;
+   background-color: white;
+   color: var(--primary-form-color);
+}
+
+.label-item {
+   font-family: var(--form-font);
+   color: var(--primary-form-color);
+}
+
+.form input[type="text"],
+select {
+   border: 1px solid var(--secundary-form-color);
+   border-radius: 6px;
+}
+
+.form-item {
+   margin: 0.5em;
+}
+
+#form-title {
+   font-family: var(--form-font);
+   color: var(--primary-form-color);
+   font-weight: bold;
+   text-align: center;
+   font-size: 1.4em;
+}
+
+.buttom-container {
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 2.4em;
+}
+
+#jsonResponse{
+    display: none;
+}
